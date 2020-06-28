@@ -1,1 +1,11 @@
-this is file one we are creating for test sample hello hai how are you
+pipeline {
+   agent any
+
+   stages {
+      stage('haiii') {
+         steps {
+            echo "hello hai how are you"
+         }
+      }
+   }
+}
