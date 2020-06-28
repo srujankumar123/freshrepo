@@ -2,7 +2,7 @@ pipeline {
    agent any
 
    stages {
-      stage('haiii') {
+      stage('sample-scm') {
          steps {
             echo "hello hai how are you"
          }
